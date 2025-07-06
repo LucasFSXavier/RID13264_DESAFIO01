@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Projeto 1</title>
+</head>
+<body>
+    <header>
+        <h1 class="header-text">The Dev News</h1>
+    </header>
+    <div class="layout">
+        <main>
+            <div class="banner">
+                <div>
+                    <p>opinião</p>
+                    <p class="highlight-title">Como é ser um desenvolvedor</p>
+                    <p><b>By</b> Fabio Tetsuo</p>
+                </div>
+            </div>
+            <section>
+                <header class="header-box">
+                    <h2>Posts mais recentes</h2>
+                    <a href="" id="toggleLink">Ver todos</a>
+                </header>
+                <div class="posts-grid" id="postsGrid">
+                    <div class="card">
+                        <div class="card-image" style="background-image: url('assets/card1.jpg');"></div>
+                        <div class="card-content" data-categoria="desenvolvimento">
+                            <span class="category ">desenvolvimento</span>
+                            <p class="card-title">Desenvolvimento mobile</p>
+                            <p class="blur-text"><b>By</b> Fabio Tetsuo</p>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur. In vitae urna commodo amet congue integer dapibus. Interdum semper mauris convallis fusce enim odio. Vitae montes ridiculus felis.</p>
+                            <p class="blur-text">22 Agosto 2022</p>
+                        </div> 
+                    </div>
+                    <div class="card">
+                        <div class="card-image" style="background-image: url('assets/card2.png');"></div>
+                        <div class="card-content " data-categoria="saude">
+                            <span class="category ">saude</span>
+                            <p class="card-title">Balancear vida profissional e pessoal</p>
+                            <p class="blur-text"><b>By</b> Ridho Satriawan</p>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur. Et consectetur at consectetur sed nisl tempor.</p>
+                            <p class="blur-text">22 Agosto 2022</p>
+                        </div> 
+                    </div>
+                    <div class="card">
+                        <div class="card-image" style="background-image: url('assets/card3.png');"></div>
+                        <div class="card-content" data-categoria="desenvolvimento">
+                            <span class="category ">desenvolvimento</span>
+                            <p class="card-title">Configurando VSCode</p>
+                            <p class="blur-text"><b>By</b> Fabio Tetsuo</p>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur. Erat interdum tortor ac sagittis id a etiam. Tellus vitae arcu dignissim massa aliquam vel tellus. Ipsum massa arcu nulla sed purus in ac.</p>
+                            <p class="blur-text">22 Agosto 2022</p>
+                        </div> 
+                    </div>
+                    <div class="card">
+                        <div class="card-image" style="background-image: url('assets/card4.png');"></div>
+                        <div class="card-content" data-categoria="produtividade">
+                            <span class="category ">produtividade</span>
+                            <p class="card-title">2 monitores ou 1 ultrawide?</p>
+                            <p class="blur-text"><b>By</b> Fulano da Silva</p>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur. Arcu tellus adipiscing sagittis tristique. Eget molestie posuere enim pretium venenatis nunc ligula donec a. Velit senectus amet nulla.</p>
+                            <p class="blur-text">22 Agosto 2022</p>
+                        </div> 
+                    </div>
+                    <div class="card" >
+                        <div class="card-image" style="background-image: url('assets/card2.png');"></div>
+                        <div class="card-content" data-categoria="saude">
+                            <span class="category">saude</span>
+                            <p class="card-title">Balancear vida profissional e pessoal</p>
+                            <p class="blur-text"><b>By</b> Ridho Satriawan</p>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur. Et consectetur at consectetur sed nisl tempor.</p>
+                            <p class="blur-text">22 Agosto 2022</p>
+                        </div> 
+                    </div>
+                    <div class="card">
+                        <div class="card-image" style="background-image: url('assets/card3.png');"></div>
+                        <div class="card-content" data-categoria="desenvolvimento">
+                            <span class="category ">desenvolvimento</span>
+                            <p class="card-title">Configurando VSCode</p>
+                            <p class="blur-text"><b>By</b> Fabio Tetsuo</p>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur. Erat interdum tortor ac sagittis id a etiam. Tellus vitae arcu dignissim massa aliquam vel tellus. Ipsum massa arcu nulla sed purus in ac.</p>
+                            <p class="blur-text">22 Agosto 2022</p>
+                        </div> 
+                    </div>
+                    <div class="card">
+                        <div class="card-image" style="background-image: url('assets/card4.png');"></div>
+                        <div class="card-content" data-categoria="produtividade">
+                            <span class="category">produtividade</span>
+                            <p class="card-title">2 monitores ou 1 ultrawide?</p>
+                            <p class="blur-text"><b>By</b> Fulano da Silva</p>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur. Arcu tellus adipiscing sagittis tristique. Eget molestie posuere enim pretium venenatis nunc ligula donec a. Velit senectus amet nulla.</p>
+                            <p class="blur-text">22 Agosto 2022</p>
+                        </div> 
+                    </div>
+                    <div class="card">
+                        <div class="card-image" style="background-image: url('assets/card2.png');"></div>
+                        <div class="card-content" data-categoria="saude">
+                            <span class="category">saude</span>
+                            <p class="card-title">Balancear vida profissional e pessoal</p>
+                            <p class="blur-text"><b>By</b> Ridho Satriawan</p>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur. Et consectetur at consectetur sed nisl tempor.</p>
+                            <p class="blur-text">22 Agosto 2022</p>
+                        </div> 
+                    </div>
+                    <div class="card">
+                        <div class="card-image" style="background-image: url('assets/card3.png');"></div>
+                        <div class="card-content" data-categoria="desenvolvimento">
+                            <span class="category">desenvolvimento</span>
+                            <p class="card-title">Configurando VSCode</p>
+                            <p class="blur-text"><b>By</b> Fabio Tetsuo</p>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur. Erat interdum tortor ac sagittis id a etiam. Tellus vitae arcu dignissim massa aliquam vel tellus. Ipsum massa arcu nulla sed purus in ac.</p>
+                            <p class="blur-text">22 Agosto 2022</p>
+                        </div> 
+                    </div>
+                    <div class="card">
+                        <div class="card-image" style="background-image: url('assets/card4.png');"></div>
+                        <div class="card-content" data-categoria="produtividade">
+                            <span class="category">produtividade</span>
+                            <p class="card-title">2 monitores ou 1 ultrawide?</p>
+                            <p class="blur-text"><b>By</b> Fulano da Silva</p>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur. Arcu tellus adipiscing sagittis tristique. Eget molestie posuere enim pretium venenatis nunc ligula donec a. Velit senectus amet nulla.</p>
+                            <p class="blur-text">22 Agosto 2022</p>
+                        </div> 
+                    </div>
+                </div>
+            </section>
+        </main>
+        <aside>
+            <section>
+                <header class="header-box">
+                    <h2>Posts populares</h2>
+                </header>
+                <div class="article">
+                    <img src="assets/news1.png" alt="">
+                    <div class="article-content">
+                        <p class="card-title">Desevolvimento atual</p>
+                        <p class="blur-text">22 Agosto 2022</p>
+                    </div> 
+                </div>
+                <div class="article">
+                    <img src="assets/news2.png" alt="">
+                    <div class="article-content">
+                        <p class="card-title">GitLab vs GitHub</p>
+                        <p class="blur-text">22 Agosto 2022</p>
+                    </div> 
+                </div>
+                <div class="article">
+                    <img src="assets/news3.png" alt="">
+                    <div class="article-content">
+                        <p class="card-title">Café atrapalha?</p>
+                        <p class="blur-text">22 Agosto 2022</p>
+                    </div> 
+                </div>
+            </section>
+            <section>
+                <header class="header-box">
+                    <h2>Categorias</h2>
+                </header>
+                <div id="categories">
+                    <ul id="category-list"></ul>   
+                </div>
+            </section>
+        </aside>
+    </div>
+    <footer>Copyright@The Dev News</footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
